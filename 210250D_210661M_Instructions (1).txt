@@ -1,0 +1,25 @@
+﻿Specific instructions for the practical operation
+
+
+* Reset button - Center push button (U18)
+* The output of register 7 - LD0 (U16),
+                             LD1 (E19),
+                             LD2 (U19),
+                             LD3 (V19)
+* Zero flag - LD14 (P1)
+* Carry flag - LD15 (L1)
+* 7-Segment display -We will display the result in the rightmost 7-segment.(W4)
+
+
+Operations 
+	1. First store 3
+	2. Then add 2 to 3 ( results 5)
+	3. Finally, add 1 to 5 (results 6)
+
+
+Expected Behavior 
+	Display, 
+        	0
+        	3
+        	5
+        	6
